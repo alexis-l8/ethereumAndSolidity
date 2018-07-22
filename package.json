@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test-inbox": "mocha Inbox/test/*.js",
+    "test-lottery": "mocha ./Lottery/test"
   },
   "keywords": [],
   "author": "",
